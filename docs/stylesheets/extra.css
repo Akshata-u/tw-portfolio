@@ -1,0 +1,130 @@
+/* =========================================================
+   Fonts + brand palette
+   (Change only the variables; everything else will follow)
+   ========================================================= */
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=DM+Sans:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap");
+
+:root{
+  /* Material palette (given) */
+  --md-primary-fg-color:#3f3d56;
+  --md-primary-fg-color--light:#0F828C;
+  --md-primary-fg-color--dark:#320A6B;
+  --md-accent-fg-color:#78B9B5;
+  --md-typeset-a-color:var(--md-primary-fg-color);
+
+  /* Body font for Material */
+  --md-text-font:"Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Button sizing knobs (all pixels) */
+  --btn-height: 40px;
+  --btn-font-size: 15px;
+  --btn-padding-x: 14px;
+  --btn-radius: 8px;
+}
+
+/* Typography: headings and UI */
+.md-typeset h1,.md-typeset h2,.md-typeset h3,
+.md-typeset h4,.md-typeset h5,.md-typeset h6{ font-family:"Arvo", serif; }
+.md-header,.md-tabs,.md-nav,.btn{ font-family:"DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+
+/* Page width (optional, nice default) */
+.md-grid{ max-width:1180px; }
+
+/* ==================================
+   Landing illustration
+   ================================== */
+.landing-illustration{
+  display:block;
+  margin:16px auto 0;
+  width:100%;
+  max-width:900px;    /* make smaller/larger as you like */
+  max-height:554px;   /* cap height to avoid long scroll */
+  height:auto;
+  object-fit:contain;
+  border-radius:12px;
+}
+@media (min-width:1200px){
+  .landing-illustration{ max-width:900px; max-height:554px; }
+}
+
+/* ==================================
+   Buttons (simple + predictable)
+   Usage: <a class="btn btn--primary"> or <a class="btn btn--outline">
+   ================================== */
+
+/* Layout for CTA rows */
+.btn-row{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin:12px 0 0; }
+
+/* Base button */
+.btn{
+  display:inline-flex;                     /* centers text reliably */
+  align-items:center;
+  justify-content:center;
+  height:var(--btn-height);
+  padding:0 var(--btn-padding-x);
+  font-size:var(--btn-font-size);
+  font-weight:700;
+  border-radius:var(--btn-radius);
+  border:2px solid transparent;
+  text-decoration:none;
+  cursor:pointer;
+  transition:background-color .12s ease, border-color .12s ease, filter .12s ease;
+}
+
+/* Keep theme link styles from recoloring text inside content area */
+.md-typeset a.btn,
+.md-typeset a.btn:link,
+.md-typeset a.btn:visited{ color:inherit; text-decoration:none; }
+
+/* Solid (primary) */
+.btn--primary,
+.md-typeset a.btn--primary{
+  background:var(--md-primary-fg-color--light);
+  border-color:var(--md-primary-fg-color--light);
+  color:#fff !important;
+}
+.btn--primary:hover,
+.md-typeset a.btn--primary:hover{
+  background:#3f3d56;                      /* slightly darker on hover */
+  border-color:#3f3d56;
+  color:#fff !important;
+}
+.btn--primary:active,
+.md-typeset a.btn--primary:active{
+  background:#3f3d56;                      /* pressed */
+  border-color:#3f3d56;
+  color:#fff !important;
+}
+
+/* Outline */
+.btn--outline,
+.md-typeset a.btn--outline{
+  background:transparent;
+  border-color:var(--md-primary-fg-color--light);
+  color:var(--md-primary-fg-color--light) !important;
+}
+.btn--outline:hover,
+.md-typeset a.btn--outline:hover{
+  background:var(--md-primary-fg-color);   /* invert on hover */
+  border-color:var(--md-primary-fg-color);
+  color:#fff !important;
+}
+.btn--outline:active,
+.md-typeset a.btn--outline:active{
+  background:#3f3d56;
+  border-color:#3f3d56;
+  color:#fff !important;
+}
+
+/* Size modifiers (optional per-button) */
+.btn--sm{ --btn-height:32px; --btn-font-size:14px; --btn-padding-x:12px; }
+.btn--lg{ --btn-height:48px; --btn-font-size:17px; --btn-padding-x:18px; }
+
+/* Accessibility: visible keyboard focus */
+.btn:focus-visible{ outline:3px solid var(--md-accent-fg-color); outline-offset:2px; }
+
+/* ==================================
+   Code sizes (easy to read)
+   ================================== */
+.md-typeset pre code{ font-size:14px; }
+.md-typeset code{ font-size:14px; }

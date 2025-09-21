@@ -1,0 +1,58 @@
+site_name: Akshata — Technical Writing Portfolio
+site_description: Selected technical writing samples.
+repo_url: https://github.com/YOUR-USERNAME/tw-portfolio
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  font:
+    text: Montserrat          # body text (UI + headings are overridden via CSS)
+    code: JetBrains Mono
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+  features:
+    - navigation.tabs         # keep horizontal navigation
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+      toc_depth: 2
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.tabbed
+
+nav:
+  - Home: index.md
+  - UI documentation:
+      - Overview: ui/index.md
+  - How-tos:
+      - Overview: how-tos/index.md
+  - API documentation:
+      - Overview: api/index.md
+  - FAQs:
+      - Overview: faqs/index.md
+  - Release notes:
+      - Overview: release-notes/index.md
+  - Tech blogs:
+      - Overview: blogs/index.md
+  - Process tools:
+      - Overview: process-tools/index.md
