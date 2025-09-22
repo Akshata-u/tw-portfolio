@@ -18,6 +18,7 @@ theme:
     - navigation.top
     - navigation.sections
     - navigation.indexes
+    - toc.follow
     - content.code.copy
     - search.suggest
     - search.highlight
@@ -34,7 +35,7 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
-      toc_depth: 2
+      toc_depth: "2-4"
   - pymdownx.superfences
   - pymdownx.details
   - pymdownx.highlight
@@ -43,16 +44,25 @@ markdown_extensions:
 nav:
   - Home: index.md
   - UI documentation:
-      - Overview: ui/index.md
+      - UI documentation examples: ui/index.md
+      - Homepage Introduction: ui/homepage-introduction.md
+
   - How-tos:
       - Overview: how-tos/index.md
+
   - API documentation:
       - Overview: api/index.md
+
   - FAQs:
-      - Overview: faqs/index.md
+      - FAQs: faqs/index.md
+
   - Release notes:
       - Overview: release-notes/index.md
+
   - Tech blogs:
-      - Overview: blogs/index.md
+      - Tech blogs examples: blogs/index.md
+      - "Speech to Text": blogs/speech-to-text-1.md
+      - "How Speech-to-Text Transciption works": blogs/speech-to-text-2.md
+
   - Process tools:
       - Overview: process-tools/index.md

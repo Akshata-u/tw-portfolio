@@ -28,7 +28,7 @@
 .md-header,.md-tabs,.md-nav,.btn{ font-family:"DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 
 /* Page width (optional, nice default) */
-.md-grid{ max-width:1180px; }
+.md-grid{ max-width:1440px; }
 
 /* ==================================
    Landing illustration
@@ -128,3 +128,20 @@
    ================================== */
 .md-typeset pre code{ font-size:14px; }
 .md-typeset code{ font-size:14px; }
+
+  /* Only affects pages that DO show sidebars; harmless when they’re hidden */
+  .md-sidebar--primary{   width: 10rem;  }   /* left nav width */
+  .md-sidebar--secondary{ width: 18rem; }   /* right ToC width */
+
+/* Optional styling for your “links as quotes” landing pages */
+.md-content__inner.landing{ max-width: 48rem; margin: 1.5rem auto; }
+.landing blockquote{ margin: 0 0 1rem; border-left: 4px solid #dadde0; padding-left: 14px; }
+.landing blockquote p{ margin: 0 0 .75rem; font-size: 1.25rem; font-weight: 600; }
+.landing blockquote p:last-child{ margin-bottom: 0; }
+
+/* Hide BOTH sidebars only on pages that explicitly declare class: is-landing */
+@media (min-width: 1200px){
+  .md-content__inner.is-landing ~ .md-sidebar--primary,
+  .md-content__inner.is-landing ~ .md-sidebar--secondary { display: none !important; }
+}
+
