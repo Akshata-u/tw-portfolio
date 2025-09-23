@@ -4,8 +4,8 @@ title: "Homepage Introduction"
 
 # Homepage Introduction
 
-!!! quote "Keep in mind"
-    This is an example of a chatbot-compatible help article.
+!!! quote ""
+    This is a sample of a chatbot-compatible help article.
 
 ## Short Description
 The **Homepage** is your daily dashboard. It displays goals, reminders, key conversations, scorecards, charts, and filters tailored to your role. Use it to track progress, review tasks, and refresh data with one click.
