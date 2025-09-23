@@ -40,24 +40,29 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.tabbed
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Home: index.md
-  - UI documentation:
-      - UI documentation examples: ui/index.md
-      - Homepage Introduction: ui/homepage-introduction.md
+  - UI & Feature documentation:
+      - UI & Feature documentation samples: ui-feature/index.md
+      - (UI) Layout of the Conversation Details page: ui-feature/layout-of-the-conversation-details-page.md
+      - (UI) Homepage Introduction: ui-feature/homepage-introduction.md
+      - (Feature) AgentGPT: ui-feature/agentgpt.md
 
-  - How-tos:
-      - Overview: how-tos/index.md
 
-  - API documentation:
-      - Overview: api/index.md
+  - How-tos & FAQs:
+      - How-to articles & Frequently Asked Questions (FAQs) samples: how-tos-faqs/index.md
+      - How to find conversations in the platform? : how-tos-faqs/how-to-find-conversations-in-the-platform.md
+      - FAQs for Agents and Managers: how-tos-faqs/faq-agents-managers.md
 
-  - FAQs:
-      - FAQs: faqs/index.md
-
+  - API & Integration documentation:
+      - API & Integration documentation samples: api-integration/index.md
+      - Nice inContact <> Instance Integration: api-integration/integration.md
   - Release notes:
-      - Overview: release-notes/index.md
+      - Release Notes examples: release-notes/index.md
 
   - Tech blogs:
       - Tech blogs examples: blogs/index.md
