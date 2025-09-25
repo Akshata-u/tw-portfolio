@@ -8,7 +8,7 @@ This blog unpacks the core components of ASR technology. We'll explore how each 
 
 Accurate speech-to-text conversion is the result of a multi-stage process—each component plays a critical role in ensuring the output is not just technically correct, but **useful and human-readable**. Here's a closer look:
 
-![STT Process](../assets/stt-5.png)
+![STT Process](../assets/stt-5.png){ width="550" height="650" }
 
 ### **1\. Voice Activity Detection (VAD)**
 

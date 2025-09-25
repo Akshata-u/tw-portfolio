@@ -4,7 +4,7 @@ In today's fast-paced world, understanding every customer interaction is crucial
 
 Speech-to-Text (also known as Automatic Speech Recognition or ASR) converts spoken language into text. It’s like a superpowered digital notetaker; instantly transcribing customer calls, sales conversations, or supporting chats into searchable text. From everyday voice assistants such as Siri and Alexa to high-stakes use in healthcare or legal settings, STT is everywhere\! 
 
-![Speech to Text technology](../assets/stt-1.png)
+![Speech to Text technology](../assets/stt-1.png){ width="650" height="650" }
 
 ### **When STT Fails, So Does CX**
 
@@ -22,7 +22,7 @@ Test\! Test\! Test\! You must always cross-check whether an STT solution is comp
 
 STT performance is often measured by **Word Error Rate (WER)**. However, it has been observed frequently that any STT solution built over generic AI models struggle to remain accurate in real-world contact center scenarios— they’re unable to recognize industry-specific jargon, complex alphanumeric strings such as account numbers or product codes and moreover, unable to deal with accents, dialects and background noise. This is where **customization** is crucial. An STT solution that allows you to finetune the underlying AI models with your unique industry data significantly improves accuracy, making them truly effective for your business.
 
-![STT Customization](../assets/stt-2.png)
+![STT Customization](../assets/stt-2.png){ width="550" height="650" }
 
 Does such a solution actually exist? Yes, indeed\!
 
@@ -54,7 +54,7 @@ This means:
 
 Compared to other transcription providers, Orba offers unmatched value:
 
-![Comparison](../assets/stt-3.png)
+![Comparison](../assets/stt-3.png){ width="650" height="550" }
 
 *WER \= Word Error Rate; lower is better. Orba is optimized for noisy, real-world customer service calls.*
 
@@ -62,11 +62,11 @@ Compared to other transcription providers, Orba offers unmatched value:
 
 Companies using **Orba** see results\! 
 
-![Companies](../assets/stt-4.png)
+![Companies](../assets/stt-4.png){ width="550" height="650" }
 
-* **Vista:** Saved **$30 million** by reducing refunds through better call insights.  
-* **ezCater:** Cut average handle time by **20%**, improving agent efficiency.  
-* **Bakkt:** Reduced call volumes by **35%** with STT-powered self-service strategies.
+* **Viz:** Saved **$30 million** by reducing refunds through better call insights.  
+* **Crater:** Cut average handle time by **20%**, improving agent efficiency.  
+* **Akkctt:** Reduced call volumes by **35%** with STT-powered self-service strategies.
 
 ### **Summing it all up: STT Isn’t Just Tech—It’s Strategy**
 

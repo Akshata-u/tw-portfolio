@@ -46,28 +46,56 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - UI & Feature documentation:
+  
+  - UI & Feature docs:
       - UI & Feature documentation samples: ui-feature/index.md
-      - (UI) Layout of the Conversation Details page: ui-feature/layout-of-the-conversation-details-page.md
-      - (UI) Homepage Introduction: ui-feature/homepage-introduction.md
-      - (Feature) AgentGPT: ui-feature/agentgpt.md
+      - UI:
+        - Layout of the Conversation Details page: ui-feature/layout-of-the-conversation-details-page.md
+        - Homepage Introduction: ui-feature/homepage-introduction.md
+      - Feature:
+        - AgentGPT: ui-feature/agentgpt.md
 
 
-  - How-tos & FAQs:
+  - How-to's & FAQs:
       - How-to articles & Frequently Asked Questions (FAQs) samples: how-tos-faqs/index.md
-      - How to find conversations in the platform? : how-tos-faqs/how-to-find-conversations-in-the-platform.md
-      - FAQs for Agents and Managers: how-tos-faqs/faq-agents-managers.md
+      - How-to's:
+        - How to find conversations in the platform? : how-tos-faqs/how-to-find-conversations-in-the-platform.md
+      - FAQs:
+        - FAQs for Agents and Managers: how-tos-faqs/faq-agents-managers.md
 
-  - API & Integration documentation:
-      - API & Integration documentation samples: api-integration/index.md
+  - API & Integration docs:
+    - API & Integration documentation samples: api-integration/index.md
+    - APIs:
+      - Group-image API: api-integration/api-air-1.md
+      - Digital Asset Management:
+        - Asset Management API: api-integration/api-am-1.md
+        - Asset operations: api-integration/api-am-2.md
+        - Updating an asset: api-integration/api-am-3.md
+        - Restoring an expired asset: api-integration/api-am-4.md
+        - Deleting an asset: api-integration/api-am-5.md
+        - Reading and querying an asset: api-integration/api-am-6.md
+    - Data Export:
+      - Snowflake instance to SW3: api-integration/data-export.md
+    - Integrations:
       - Nice inContact <> Instance Integration: api-integration/integration.md
+
   - Release notes:
-      - Release Notes examples: release-notes/index.md
+      - Release Notes samples: release-notes/index.md
+      - Release notes in CMS: release-notes/release-note-cms.md
+      - Release announcements in-app: release-notes/release-note-app.md
 
   - Tech blogs:
-      - Tech blogs examples: blogs/index.md
-      - "Speech to Text": blogs/speech-to-text-1.md
-      - "How Speech-to-Text Transciption works": blogs/speech-to-text-2.md
+      - Tech blogs samples: blogs/index.md
+      - Speech to Text: blogs/speech-to-text-1.md
+      - How Speech-to-Text Transciption works: blogs/speech-to-text-2.md
+
+  - Training Guides:
+    - Training guides examples: training-guides/index.md
+    - Internal:
+      - Image annotation training guide: training-guides/annotation.md
+    - External:
+      - AI prompts training guide: training-guides/ai-prompt.md
+     
 
   - Process tools:
-      - Overview: process-tools/index.md
+      - Tools I Use: process-tools/index.md
