@@ -1,3 +1,6 @@
+!!! example "About this article "
+    Reference links to other articles are indicated but unavailable since these are sample documents.
+
 ## Accessing your conversations
 
 1.  To view a list of all your past conversations, from the Left Navigation Bar, click **Conversations** **>** click the **Conversations** sub-option.  
@@ -25,7 +28,7 @@
 
 ![filters applied](../assets/trn-5.png)  
 
-If you use a set of filters frequently, you can save them as **Views** using the **Save** button on the bottom right of the screen**.** This will help you to retrieve your data quickly without repeatedly configuring your filters each time.  
+If you use a set of filters frequently, you can save them as **Views** using the **Save** button at the bottom right of the screen. This will help you to retrieve your data quickly without repeatedly configuring your filters each time.  
       
 ![save button in filters](../assets/trn-6.png)  
     

@@ -37,14 +37,14 @@
   display:block;
   margin:16px auto 0;
   width:100%;
-  max-width:900px;    /* make smaller/larger as you like */
-  max-height:554px;   /* cap height to avoid long scroll */
+  max-width:600px;    /* make smaller/larger as you like */
+  max-height:360px;   /* cap height to avoid long scroll */
   height:auto;
   object-fit:contain;
   border-radius:12px;
 }
 @media (min-width:1200px){
-  .landing-illustration{ max-width:900px; max-height:554px; }
+  .landing-illustration{ max-width:600px; max-height:360px; }
 }
 
 /* ==================================
@@ -144,4 +144,27 @@
   .md-content__inner.is-landing ~ .md-sidebar--primary,
   .md-content__inner.is-landing ~ .md-sidebar--secondary { display: none !important; }
 }
+/* --- Corner art for index pages (simple + tweakable) --- */
 
+/* Add `class: cornered` in the page front-matter */
+.md-content__inner.cornered{
+  position: relative;                 /* <-- anchor for absolute art */
+  padding-bottom: var(--corner-pad, 220px); /* keep space for art */
+}
+
+/* The image itself */
+.corner-art{
+  position: absolute;
+  right: 100px;                        /* move from right edge */
+  bottom: 100px;                       /* stick to bottom-right */
+  width: var(--corner-w, 200px);      /* control size via CSS var */
+  height: auto;
+  opacity: var(--corner-opacity, .70);  /* <— default subtle fade */
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+}
+.md-typeset .admonition.narrow {
+  max-width: 650px;
+  margin-right: auto;
+}

@@ -1,3 +1,8 @@
+!!! example "About this article "
+    This is a "natural language" help article structure.
+
+    Reference links to other articles are indicated but unavailable since these are sample documents.
+
 ### Overall Layout
 
 ![conversation details page](../assets/det-1.png)
@@ -13,7 +18,10 @@
 !!! info "INFO"  
     Refer to _this article_ for a detailed description of the **Rubric** section.
 
-**(E) Key Events** tab lists metric tags and conversation tags relevant to the conversation along with the corresponding audio snippet. Click![play](../assets/det-2.png){ width="40" height="40" }to expand and listen to the snippet.  
+**(E) Key Events** tab lists metric tags and conversation tags relevant to the conversation along with the corresponding audio snippet.
+
+Click![play](../assets/det-2.png){ width="40" height="40" }to expand and listen to the snippet.  
+
 **Assists and Flags** tab lists the assist cards and flags generated during the conversation.
 
 !!! tip "TIP"  
@@ -23,7 +31,7 @@
 
 **(G) Search Transcript**; use this field to look for specific customer or agent utterances
 
-**(H)** Audio and Video recordings. You can use the controls to select a specific point or duration to which you want to listen/view.
+**(H)** Audio and video recordings. Use the controls to select a specific point or duration that you want to listen/view.
 
 !!! note "NOTE"  
     Audio files are generated only for calls.
@@ -32,7 +40,7 @@
 
 **(J) Share;** use this button when you want to send the current conversation to other users.
 
-**(K) Add to** Dropdown with:  
+**(K) Add to** dropdown with:  
 **\- Add to Library:** Allows you to add the current conversation to a library.  
 **\- Add to Coaching:** Allows to you add the current conversation to a new or existing coaching session.
 

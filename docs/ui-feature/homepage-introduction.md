@@ -4,8 +4,10 @@ title: "Homepage Introduction"
 
 # Homepage Introduction
 
-!!! quote ""
-    This is a sample of a chatbot-compatible help article.
+!!! example "About this article "
+    This is a "chatbot-compatible" help article structure.
+
+    Reference links to other articles are indicated but unavailable since these are sample documents.
 
 ## Short Description
 The **Homepage** is your daily dashboard. It displays goals, reminders, key conversations, scorecards, charts, and filters tailored to your role. Use it to track progress, review tasks, and refresh data with one click.
@@ -22,52 +24,52 @@ Why it matters: Unlike detailed reports (historical deep dives), the **Homepage*
 
 ![Goals](../assets/hmpg-1b.png)
 
-Purpose: Monitor progress toward performance objectives.      
+**Purpose**: Monitor progress toward performance objectives.      
 
-Role-specific view:
+The **Goals** widget is dynamic and displays goals based on your user role:
 
 * Admins / Super Admins: Organization-wide goals and agent-level tracking.  
 * Managers / QA Auditors: Weekly team targets.  
 * Agents: Only their individual goals.
 
 !!! tip "Tip"
-    Check this widget daily to know if you’re on track.
+    Check your **Goals** widget daily to know if you’re on track.
 
 ### Reminders Widget
 
 ![Reminders](../assets/hmpg-1c.png)
 
-Purpose: Displays pending tasks from the last 30 days.      
+**Purpose**: Displays pending tasks from the last 30 days.      
 
-Role-specific items:
+The **Reminders** widget displays evaluation, calibration, and coaching tasks based on your user role:
 
-* Evaluations  
+* **Evaluations**  
   * Agents: Conversations to review or disputed evaluations requiring action.  
   * QA Auditors: Assigned evaluations, pending evaluations, or disputes to resolve.  
-* Calibrations: Details of calibration sessions where you are a moderator or participant.  
-* Coaching: Outstanding items from coaching sessions.
+* **Calibrations**: Details of calibration sessions where you are a moderator or participant.  
+* **Coaching**: Outstanding items from coaching sessions.
 
-Action: Click any item to open it directly.
+**Available actions**: Click any item to open it directly.
 
 ### Key Conversations to Review
 
 ![Key conversations](../assets/hmpg-2.png)
 
-Purpose: Highlights conversations from the past 7 days that require attention.    
+**Purpose**: Highlights conversations from the past 7 days that require attention.    
 
-Role-specific view:
+The interactions displayed here are based on their relevance to the user role: 
 
 * Agents: Conversations to learn from and improve performance.  
 * Managers / QA Auditors: Conversations with strong positive or negative sentiment handled by their team.
 
 ### Key Metrics
 ![Key Metrics](../assets/hmpg-3.png)
-Purpose: Quick scorecards with performance indicators.      
+**Purpose**: Quick scorecards with performance indicators.      
 
 Role-specific view:    
 
-* Admins / Managers / QA Auditors / Super Admins: Six scorecards.  
-* Agents: Three scorecards.
+* Super Admins/ Admins / Managers / QA Auditors will see 6 scorecards.  
+* Agents will see 3 scorecards.
 
 !!! note "Note"
     If you click into a scorecard, **Homepage** filters do not carry over.
@@ -75,28 +77,28 @@ Role-specific view:
 ### My Charts
 ![My Charts](../assets/hmpg-4.png)
 
-Purpose: Visual summaries of data relevant to your role.     
+**Purpose**: Visual summaries of data relevant to your role.     
 
-Actions available:    
+You can carry out the following actions on any chart:   
 
-* Toggle labels or adjust time granularity.  
-* Expand chart hyperlinks for detailed viewing.  
-* Click links to explore deeper reports.  
-* Download custom charts if a **Download** icon is shown.
+* **Toggle labels** or adjust time granularity.  
+* **Expand charts** for detailed viewing.  
+* **Click chart hyperlinks** to explore deeper reports.  
+* **Download custom charts** if a ![Download](../assets/trn-10.png){ width="30" height="30" } icon is shown.
 
 ![Chart actions](../assets/hmpg-5.png)
 
 ### Homepage filters
 ![Homepage filters](../assets/hmpg-6.png)
-Default: Last 30 days of data.  
-Customization: Adjust filters to focus on specific time ranges.
+**Default**: Last 30 days of data.  
+**Customization**: Adjust filters to focus on specific time ranges.
 
 !!! warning "Important"
-    Filters do not apply to the **Reminders** or **Key Conversations** widgets.
+    Filters do not apply to the **Reminders** or **Key conversations to review** widgets.
 
 ### Load Data
 
-Action: Click **Load Data** to refresh all **Homepage** widgets with the most up-to-date information.
+**Available actions**: Click **Load Data** to refresh all **Homepage** widgets with the most up-to-date information.
 
 !!! abstract "Related Articles"
-    How to Customize the Homepage
+    _How to Customize the Homepage_

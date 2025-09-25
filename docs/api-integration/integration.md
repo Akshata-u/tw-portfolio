@@ -1,3 +1,6 @@
+!!! example "About this article "
+    Reference links to other articles are indicated but unavailable since these are sample documents.
+
 As an Admin or Super Admin, you can independently configure the Nice inContact integration within your **Acme AI** instance. This is a self-service option and eliminates the need to contact your **Technical Account Managers** (TAMs) for initial setup.
 
 !!! note "NOTE"  
@@ -33,19 +36,19 @@ As an Admin or Super Admin, you can independently configure the Nice inContact i
 
 **Acme AI** provides several parameters to filter and refine the data ingested from Nice inContact. These configurations allow you to focus on the most relevant data for your analysis. The following configuration options are available:
 
-**(i) Language Translation:** You can configure Language translation by turning on the flag and entering the relevant metadata. You can select the field name, operator (Equals, Starts with, Ends with) and field value to identify the relevant language of the ticket.
+**(i) Language Translation:** You can configure **Language translation** by turning on the flag and entering the relevant metadata. You can select the field name, operator (Equals, Starts with, Ends with) and field value to identify the relevant language of the ticket.
 
-**(ii) Data Filtering:** Refine imports by Team name, Campaign Name, and Skill Name
+**(ii) Data Filtering:** Refine imports by **Team name**, **Campaign Name**, and **Skill Name**
 
-**(iii) Minimum Agent Handling Time:** Configure the minimum agent handling time to be ingested into Acme AI. Calls having agent handling time above this would be ingested.
+**(iii) Minimum Agent Handling Time:** Configure the minimum agent handling time to be ingested into **Acme AI**. Calls having agent handling time greater than this value would be ingested.
 
-**(iv) Minimum Contact Duration:** Configure the minimum total Call time to be ingested into Acme AI. Calls having total time above this would be ingested.
+**(iv) Minimum Contact Duration:** Configure the minimum total call time to be ingested into **Acme AI**. Calls having total time greater than this value would be ingested.
 
 **(v) Include Outbound calls and Include IVR Calls:** Slide the respective toggle to enable or disable ingestion of outbound and IVR calls into your **Acme** instance.  
   
 ![config](../assets/int-6.png){ width="600" height="650" }
   
-**Redaction and Booster Words**: You can enable and manage the Redaction and Booster words features for your imported data. This allows for sensitive data masking and highlighting of critical terms, enabling better compliance and transcription accuracy.
+**Redaction and Booster Words**: You can enable and manage the **Redaction and Booster words** features for your imported data. This allows for sensitive data masking and highlighting of critical terms, enabling better compliance and transcription accuracy.
 
 After configuring your preferences, click **Next** to proceed.
 
@@ -55,7 +58,7 @@ Before fully enabling the integration, it is highly recommended to import a samp
   
 ![import sample](../assets/int-7.png){ width="550" height="550" }
 
-You can choose to import data from the last 6, 12, or 24 hours.  
+You can choose to import data from the last **6**, **12**, or **24** hours.  
       
 !!! not "NOTE"
      * The sample conversation import is limited to a maximum of 1000 conversations, regardless of the time period selected.  
@@ -109,7 +112,7 @@ You can easily rename your connected Nice inContact account for better organizat
       
     ![rename 2](../assets/int-15.png){ width="500" height="700" }
 
-### Connecting New Nice inContact Accounts to Acme AI
+### Connecting New Accounts
 
 You can integrate multiple Nice inContact accounts with your **Acme AI** instance:
 

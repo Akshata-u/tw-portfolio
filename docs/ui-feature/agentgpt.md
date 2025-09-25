@@ -1,3 +1,6 @@
+!!! example "About this article "
+    This is a "natural language" help article structure.
+    
 ## Overview
 
 Contact center agents have several challenges irrespective of the industry to which they belong, the common ones being:
@@ -33,7 +36,7 @@ To address these challenges, **Zumo AI** has designed **AgentGPT** and **Suggest
 
 We recognize that managing a conversation with both a customer and a bot simultaneously can be challenging for agents. **Suggested Queries** simplifies the use of AgentGPT, making it easier for agents to access their knowledge base. Here's how it works:
 
-*   **Real-time Conversation Analysis**: **Level AI**'s models analyze the conversation between the agent and the customer in real-time, identifying the customer's intent and the topic of discussion.
+*   **Real-time Conversation Analysis**: **Zumo AI**'s models analyze the conversation between the agent and the customer in real-time, identifying the customer's intent and the topic of discussion.
 *   **Intelligent Query Suggestions**: Based on the conversation analysis, **Suggested Queries** presents the agent with a list of relevant queries that are likely to yield helpful information from **AgentGPT**.
 *   **Help with probing questions:** Sometimes, it’s not clear what exactly a customer is asking about. In this case, **Suggested Queries** could help you formulate questions to ask the customer in order to understand what their problem actually is.
 *   **Agent Selection and Information Retrieval**: Finally, simply select the most appropriate query from the list, and **AgentGPT** instantly retrieves the relevant information from across your knowledge base.
