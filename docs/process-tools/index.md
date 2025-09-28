@@ -29,7 +29,7 @@ Jira
 
 #### I also know the basics of
 
-HTML | JSON | Markdown | DITA | XML | Github | Gitlab | VSCode
+HTML | JSON | Markdown | DITA | XML | Github | Gitlab | VSCode | Figma
 
 #### AI Tools
 
